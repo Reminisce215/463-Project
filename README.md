@@ -31,16 +31,16 @@ space complexity but timsort is better at dealing with partially ordered dataset
 advantage of the properties of insertion sort. 
 
 Timsort Demo
-![timsort bench]()
+![timsort bench](timSortDemo.png)
 
 
 Timesort Test Result
-![timsort bench]()
+![timsort bench](timsortTest.png)
 
 
 Insertion Result
-![insertion bench]()
+![insertion bench](insertionSortTest.png)
 
 
 Mergesort Result
-![mergesort bench]()
+![mergesort bench](mergeSortTest.png)
