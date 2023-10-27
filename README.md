@@ -5,7 +5,7 @@
 # Timsort REPORT
 
 - The goal of this project is to implement the Timsort algorithm. This algorithm is a hybrid sort that takes elements
-of mergesort and insertion sort to create highly efficient sort that is often used on real world datasets.
+of mergesort and insertion sort to create a highly efficient sort that is often used on real world datasets.
 The algorithm starts by deciding the number of "runs", a sub array of elements that are already ordered
 in ascending or descending order. The method for deciding the number of runs depends on the implementation
 and is often done dynamically. Sometimes the numbers of runs are decided by a number divisible by 2, 
@@ -30,7 +30,17 @@ a bit slower than timsort. Timsort and mergesort actually have the same average 
 space complexity but timsort is better at dealing with partially ordered datasets because it takes
 advantage of the properties of insertion sort. 
 
+Timsort Demo
+![timsort bench]()
 
 
--
+Timesort Test Result
+![timsort bench]()
 
+
+Insertion Result
+![insertion bench]()
+
+
+Mergesort Result
+![mergesort bench]()
